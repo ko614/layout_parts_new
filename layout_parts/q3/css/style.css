@@ -4,6 +4,7 @@
 .q3_contents{
   width: 100%;
   border: 1px solid #dedede;
+  table-layout: fixed;
 }
 
 .q3_contents th, .q3_contents td{
