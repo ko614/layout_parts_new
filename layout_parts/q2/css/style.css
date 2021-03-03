@@ -1,30 +1,30 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q2_contents{
+.q2_contents {
   width: 900px;
   background-color: #eff3f4;
   margin: 0 auto;
   padding: 20px;
 }
 
-.images{
+.images {
   width: 200px;
   margin-bottom: 10px;
 }
 
-.image_left{
+.image_left {
   float: left;
   margin-right: 20px;
 }
 
-.q2_text{
+.q2_text {
   font-size: 18px;
   line-height: 22px;
   word-break: break-all;
 }
 
-.image_right{
+.image_right {
   float: right;
   margin-left: 20px;
 }
