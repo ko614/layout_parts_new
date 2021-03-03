@@ -1,5 +1,91 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q6__box.is_text_align{
+  text-align: center;
+  display: inline-block;
+}
+
+.q6_inner_box{
+  text-align: center;
+}
+
+.q6_inner_text{
+  background-color: #e6f2ff;
+  width: 90px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.text_textalign{
+  display: inline-block;
+}
+
+/* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+text-alineはブロック要素の中のインライン要素
+の位置を決められるので、ブッロク要素そのものを
+真ん中に持っていくにはそのブッロクを
+display: inline-block;で
+インライン要素化する必要がある 
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑*/
+
+.first_text_margin{
+  margin: 0 auto;
+}
+
+.white_textbox{
+  padding: 10px;
+  background-color: #FFF;
+}
+
+.table_textbox{
+  display: inline-block;
+}
+
+.is_table{
+  display: table;
+}
+
+.second_q6_box{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.is_flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second_white_textbox{
+  position: relative;
+}
+
+.bottom_textbox{
+  position: absolute;
+}
+
+.stable_text{
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.flexible_text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+/* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+これは中央寄せする要素の左上を起点として
+上から50%（top: 50%;）・左から50%（left: 50%;）の位置に移動させ、
+要素の大きさの半分ずつを戻す（translate）、という動きをしています。
+trnsforがないと要素が斜め右下になる
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */
 
 /* 回答はここに書いてね */
