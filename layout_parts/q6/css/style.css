@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q6__box.is_text_align{
+.is_text_align{
   text-align: center;
   display: inline-block;
 }
