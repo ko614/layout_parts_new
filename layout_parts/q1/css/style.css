@@ -7,7 +7,7 @@
   clear: both;
 } 
 
-.q1__content{
+.q1__content {
   width: 900px;
   background-color: #eff3f4;
   margin: 0 auto;
@@ -16,7 +16,7 @@
   /* これをつけると幅とpaddingも込みで表示できる  */
 }
 
-.q1__content__box{
+.q1__content__box {
   width: 230px;
   background-color: #3274ae;
   float: left;
@@ -24,11 +24,12 @@
   padding: 20px;
 }
 
-.q1__content .q1__content__box:first-child {
+.q1__content, 
+.q1__content__box:first-child {
   margin-left: 0;
 }
 
-.q1__content__text{
+.q1__content__text {
   background-color: #eaf4ff;
   font-size: 16px;
   line-height: 16px;
