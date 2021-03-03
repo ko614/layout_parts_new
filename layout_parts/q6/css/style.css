@@ -1,23 +1,23 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.is_text_align{
+.is_text_align {
   text-align: center;
   display: inline-block;
 }
 
-.q6_inner_box{
+.q6_inner_box {
   text-align: center;
 }
 
-.q6_inner_text{
+.q6_inner_text {
   background-color: #e6f2ff;
   width: 90px;
   padding: 10px 0;
   text-align: center;
 }
 
-.text_textalign{
+.text_textalign {
   display: inline-block;
 }
 
@@ -29,44 +29,44 @@ display: inline-block;で
 インライン要素化する必要がある 
 ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑*/
 
-.first_text_margin{
+.first_text_margin {
   margin: 0 auto;
 }
 
-.white_textbox{
+.white_textbox {
   padding: 10px;
   background-color: #FFF;
 }
 
-.table_textbox{
+.table_textbox {
   display: inline-block;
 }
 
-.is_table{
+.is_table {
   display: table;
 }
 
-.second_q6_box{
+.second_q6_box {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
 
-.is_flex{
+.is_flex {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.second_white_textbox{
+.second_white_textbox {
   position: relative;
 }
 
-.bottom_textbox{
+.bottom_textbox { 
   position: absolute;
 }
 
-.stable_text{
+.stable_text {
   top: 0;
   right: 0;
   left: 0;
@@ -74,7 +74,7 @@ display: inline-block;で
   margin: auto;
 }
 
-.flexible_text{
+.flexible_text {
   position: absolute;
   top: 50%;
   left: 50%;
