@@ -13,7 +13,7 @@
   margin-bottom: 10px;
 }
 
-.image_A{
+.image_left{
   float: left;
   margin-right: 20px;
 }
@@ -24,7 +24,7 @@
   word-break: break-all;
 }
 
-.image_B{
+.image_right{
   float: right;
   margin-left: 20px;
 }
