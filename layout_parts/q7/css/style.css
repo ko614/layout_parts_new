@@ -1,5 +1,106 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.white_box {
+  width: 225px;
+}
+
+.float_box {
+  float: left;
+  margin-left: 50px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.white_box:first-child {
+  margin-left: 0;
+}
+
+.table_inner {
+  display: table;
+}
+
+.table_box {
+  display: table-cell;
+  padding-left: 50px;
+  vertical-align: middle;
+}
+
+.table_text {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.table_box:first-child {
+  padding-left: 0px;
+}
+
+
+.inlineblock_box {
+  display: inline-block;
+  /* margin-left: 50px; */
+  vertical-align: middle;
+  margin-left: 50px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.inlineblock_box_contents {
+  font-size: 0;
+}
+
+/* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+display:inline-blockでは
+横並びになったときに微かに小さな隙間ができるので
+font-size0を指定してあげて隙間をなくす。
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */
+
+.flex_contents {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.flex_box {
+  font-size: 16px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.full_box {
+  font-size: 0;
+}
+
+.is_stable {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.is_flexible {
+  display: inline-block;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+}
+
+/* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+ネガティブマージンを使用することによって
+要素が横幅いっぱいになる。
+さらにwidthで100%,その親要素にはwidthを
+指定しなければ可変となる。
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */
+
+.flexible_text,
+.stable_text {
+  font-size: 16px;
+}
 
 /* 回答はここに書いてね */
