@@ -11,6 +11,7 @@
 
 .q5_box {
   width: 100px;
+  height: 100px;
   text-align: center;
   font-size: 30px;
   font-weight: bold;
@@ -91,4 +92,8 @@
   z-index: 9;
   background-color: #2b69a3;
 }
+
+/* zed-indexは10~90にする
+→保守性を高めるため */
+
 /* 回答はここに書いてね */
