@@ -57,7 +57,7 @@ border-bottom-colorで色をつけてあげる。
 
 .bubble:after {
   bottom: -38px;
-  border-top-color: blue;
+  border-top-color: white;
 } 
 
 /* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
