@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 
-.white_box:first-child {
+.float_box:first-child {
   margin-left: 0;
 }
 
@@ -38,13 +38,12 @@
 }
 
 .table_box:first-child {
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 
 .inlineblock_box {
   display: inline-block;
-  /* margin-left: 50px; */
   vertical-align: middle;
   margin-left: 50px;
   font-size: 16px;
