@@ -1,5 +1,75 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.bubble {
+  position: relative;
+  width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 5px solid #222;
+  border-radius: 30px;
+}
+
+/* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+下の小さな三角を作る前に、
+四角を作ってborder-radiusで削る。
+すると下の①画像のようになる。
+①https://i.gyazo.com/da30786a4de31d39a56f2e46232e101f.png 
+②吹き出し要素分解図
+https://i.gyazo.com/a7b00110737584d8d450baadeacf7480.png
+※吹き出しが枠のない一色のものならafterは不要
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑*/
+
+.bubble:before,
+.bubble:after {
+  position: absolute;
+  border: 20px solid transparent;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  content: "";
+  left: 30px;
+}
+
+/* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+三角形の作り方
+画像のようにborderのheightとwidthを０にして
+三角形が４つある四角を作る。
+https://i.gyazo.com/3e6492b3a9bd3962b1f4a6b69ddb8719.png
+
+この後の三角形の作り方は２通り
+①全てに色をつけて、残したい三角形以外をtransparentで
+透明化させる。
+
+②三角形が４つある四角を最初から全て透明化し、
+残したい三角だけ色を付ける。
+ex)上むきの三角形を作りたいなら、
+border-bottom-colorで色をつけてあげる。
+
+今回は②を採用。
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */
+
+
+.bubble:before {
+  bottom: -45px;
+  border-top-color: #222;
+}
+
+.bubble:after {
+  bottom: -38px;
+  border-top-color: blue;
+} 
+
+/* ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+今回は枠あり三角なので、作った２つの三角形の位置を
+少しずらして重ねている。
+
+要素分解図
+→ https://i.gyazo.com/71d76d684f9cb9813f12729582782449.png
+↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ */
+
+
+
 
 /* 回答はここに書いてね */
+
